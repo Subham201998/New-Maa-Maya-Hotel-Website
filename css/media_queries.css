@@ -1,0 +1,113 @@
+@media (max-width: 1315px)
+{
+    .further-information
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .food-showcase-container
+    {
+        margin-top: 2400px;
+    }
+    .showcase-text-container
+    {
+        margin-top: 2300px;
+    }
+    .bottom-section
+    {
+        margin-top: 2850px;
+    }
+    .location-pinpoint
+    {
+        position: absolute;
+        margin-top: 631px;
+    }
+    .map
+    {
+        width: 1160px;
+    }
+}
+
+@media (max-width: 876px)
+{
+    .further-information
+    {
+        grid-template-columns: 1fr;
+    }
+    .food-showcase-container
+    {
+        margin-top: 3100px;
+    }
+    .showcase-text-container
+    {
+        margin-top: 2950px;
+    }
+    .bottom-section
+    {
+        margin-top: 3550px;
+    }
+    .location-pinpoint
+    {
+        position: relative;
+        margin-top: 0px;
+    }
+    .map
+    {
+        width: 500px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .food-showcase-container
+    {
+        flex-direction: column;
+        height: 954px;
+    }
+    .bottom-section
+    {
+        margin-top: 4053px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .restaurant-information
+    {
+        flex-direction: column;
+        height: 400px;
+    }
+    .restaurant-information div
+    {
+        border-bottom: solid 1px rgb(230, 230, 230);
+    }
+    /*.restaurant-information-scroll
+    {
+
+        visibility: hidden;
+    }*/
+
+
+    .further-information
+    {
+        margin-top: 1300px;
+    }
+    .food-showcase-container
+    {
+        margin-top: 3350px;
+    }
+    .showcase-text-container
+    {
+        margin-top: 3200px;
+    }
+    .bottom-section
+    {
+        margin-top: 4304px;
+    }
+
+    .restaurant-name-container
+    {
+
+        font-size: 8px;
+        transition: font-size 0.3s;
+    }
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Welcome to New Maa Maya Hotel</title>
+<link rel="stylesheet" href="css/nmm_styling.css">
+<link rel="stylesheet" href="css/bottom_section.css">
+<link rel="stylesheet" href="css/media_queries.css">
+<script src="scripts/nmm_script.js"></script>
+<script src="scripts/media_query.js"></script>
+</head>
+
+<body>
+<div class="restaurant-name-container"><h1 class="restaurant-name">New Maa Maya Hotel</h1></div>
+<div class="hamburger-menu" id="hamburger-menu-nav">
+    <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+    <div class="hamburger-menu-content">
+      <a href="homepage.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a onclick="window.open('tel:9832486509')">Contact Us</a>
+      <a href="https://www.swiggy.com/city/jalpaiguri/new-maa-maya-hotel-ukilpara-jalpaiguri-locality-rest157876" target="_blank">Order Online</a>
+    </div>
+</div>
+<div class="contact-menu" id="contact-menu-nav">
+  <a href="javascript:void(0)" class="close-contact" onclick="closeContact()">&times;</a>
+  <div class="contact-menu-content">
+    <p style="font-weight: bold;">Phone</p>
+    <p style="margin-bottom: 25px;" onclick="window.open('tel:9832486509')">(+91) 98324 86509</p>
+    <p style="font-weight: bold;">Operating Hours</p>
+    <p style="font-style: italic; font-size: 19px;">Monday - Saturday: 10 am - 5 pm</p>
+    <p style="font-style: italic; font-size: 19px;margin-bottom: 25px;">Sunday: Closed</p>
+    <p style="font-weight: bold;">Address</p>
+    <p style="font-size: 19px; margin-bottom: 25px;">Ukilpara, Jalpaiguri, West Bengal - 735101</p>
+    <p style="font-weight: bold;">Dining Option</p>
+    <p style="font-size: 19px;margin-bottom: 25px;">Lunch</p>
+    <p style="font-weight: bold;">Services</p>
+    <p style="font-size: 19px;">Home Delivery, and more</p>
+  </div>
+</div>
+<div class="header" id="nav-bar">
+<div class="sub-header1">
+    <div class="left-section">
+        <img class="hamburger" src="images/menu.png" onclick="openNav()">
+    </div>
+    <div class="middle-section">
+        <div class="header-label" id="header_label"></div>
+    </div>
+    <div class="right-section">
+        <!--<p>EN</p>&nbsp/&nbsp<p>বা</p>-->
+        <img class="contact-us" src="images/location-pin-call_16309984.png" onclick="openContact()">
+    </div>
+</div>
+<div class="sub-header2">
+    <div class="home"  style="opacity: 1;">
+        <div class="home-logo"><img src="images/kitchen_home.png"></div>
+        <div class="home-text">Home</div>
+    </div>
+    <div class="menu">
+      <a class="home-text" href="menu.html">
+        <div class="menu-logo"><img src="images/utensils_menu.png"></div>
+        <div class="menu-text">Menu</div>
+      </a>
+    </div>
+    
+    <!--<div class="services">
+        <div class="services-logo"><img src="images/frying-pan_services.png"></div>
+        <div class="services-text">Services</div>
+    </div>-->
+    <div class="about">
+      <a class="home-text" href="about.html">
+        <div class="about-logo"><img src="images/frying-pan_services.png"></div>
+        <div class="about-text">About</div>
+      </a>
+    </div>
+</div>
+<div class="restaurant-information-scroll" id="info-scroll">
+    <div class="information-a">
+        <p><b>OPERATING HOURS</b><br><br>
+        10 am - 5 pm</p>
+    </div>
+    <div class="information-b">
+        <p><b>OPERATING DAYS</b><br><br>
+            Monday - Saturday</p>
+    </div>
+    <div class="information-c">
+        <p><b>STARTING RATE</b><br><br>
+            ₹ 200</p>
+    </div>
+</div>
+</div>
+
+<div class="hero-section">
+    <img class="fishes" id="fish" src="images/fishes.png" onload="document.getElementById('fish').style.opacity='40%'">
+    <div class="hero-messege-container">
+        <div class="logo">
+            <div class="header-logo">
+                <div class="tracker" id="r1c1"></div>
+                <div class="tracker" id="r1c2"></div>
+                <div class="tracker" id="r1c3"></div>
+
+                <div class="tracker" id="r2c1"></div>
+                <div class="tracker" id="r2c2"></div>
+                <div class="tracker" id="r2c3"></div>
+
+                <div class="tracker" id="r3c1"></div>
+                <div class="tracker" id="r3c2"></div>
+                <div class="tracker" id="r3c3"></div>
+
+                <img class="nmmh_logo" id="nmmh-logo" src="images/nmmh_logo3.png">
+            </div>
+        </div>
+        <div class="messege">
+            <p>We are a Bengali Cuisine restaurant.<br>
+            Started since 2018.</p>
+            <button class="location-button" onclick="window.open('https://maps.app.goo.gl/5eAsFgL5zuEQ7pcr5')"></button>
+            <p style="color: black; font-size: larger; margin: 40px 0px 0px 0px;">☆☆☆☆</p>
+                <p style="color: black; margin: 0px; font-size: small;">- Google Reviews</p>
+        </div>
+    </div>
+</div>
+
+<div class="restaurant-information">
+    <div class="information-1">
+        <p><b>OPERATING HOURS</b><br><br>
+        10 am - 5 pm</p>
+    </div>
+    <div class="information-2">
+        <p><b>OPERATING DAYS</b><br><br>
+            Monday - Saturday</p>
+    </div>
+    <div class="information-3">
+        <p><b>STARTING RATE</b><br><br>
+            ₹ 200</p>
+    </div>
+</div>
+
+<div class="further-information">
+    <div class="services-info">
+        <div class="services-info-text">
+            <h1>We Provide Other Services Too.</h1>
+            <h2>Small-scale food delivery for services like:</h2>
+            <p>Birthday Parties<Br>School Functions<Br>and<Br>Any type of other occations, etc.</p>
+            <h2>Small-scale food catering services for similar events mentioned above.</h2>
+            <button class="contact-button" onclick="window.open('tel:9832486509')"></button>
+        </div>
+    </div>
+    <div class="location-compliment">
+        <div class="services-info-text">
+            <h1>Find us in the Picturesque town of Jalpaiguri.</h1>
+            <h2>Jalpaiguri, also known as the land of 3 things:</h2>
+            <p>Tea<Br>Timber<Br>and Tourism<Br></p>
+            <h2>Enjoy a simple journey of taste.</h2>
+        </div>
+        <div class="location-photo">
+        <img class="jalpaiguri-photo" src="images/jalpaiguri.png">
+        </div>
+    </div>
+    <div class="location-pinpoint">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3569.7813612019595!2d88.72055086027714!3d26.527174322095334!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4792f50502d5f%3A0xb2cb41e8d5ef8a85!2sNEW%20MAA%20MAYA%20HOTEL!5e0!3m2!1sen!2sin!4v1737232486275!5m2!1sen!2sin"
+      width="420" height="582" style="border:0;"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+</div>
+
+
+
+
+<div class="showcase-text-container">
+    <p class="dish-name" style="color: black;">Our Bengali Dishes</p>
+    <p class="dish-price" style="color: black;">
+      Discover the beauty of Bengali Cuisine with our Signature and Popular Dishes.</p>
+    <p style="color: black; font-style: normal;"> from Katla Vopa, Mutton to Chicken. Find out more in our <a style="font-weight: bold; text-decoration: none;" target="_blank" href="menu.html">MENU.</a></p>
+    </div>
+    
+    
+    
+    
+    <div class="food-showcase-container">
+      <div class="parent-container">
+        <div style="background-color: black;" class="food1">
+          <p class="dish-fame">Our Signatre Dish</p>
+          <p class="dish-name" style="font-size: 32px;">Katla Vapa</p>
+          <p class="dish-price">Rs. 200</p>
+        </div>
+        <div style="background-color: rgb(255, 174, 0);" class="food"></div>
+        <div style="background-color:rgb(219, 142, 0);" class="food"></div>
+        <div style="background-color: rgb(218, 105, 0);" class="food"></div>
+        <div style="background-color: yellow;" class="food5">
+          <p class="dish-price" style="color: black; font-size: 12px; padding: 0px 20px 0px 20px;">
+            a famous dish, great in taste and a befitting upliftment of your mood.</p>
+          <img class="katlaa" src="images/katla.png">
+        </div>
+        <div style="background-color: gold;" class="food"></div>
+      </div>
+    
+    
+      <div class="parent-container">
+        <div style="background-color: black;" class="food1">
+          <p class="dish-fame">Our Popular Dish</p>
+          <p class="dish-name" style="font-size: 30px;">Mutton Full-Plate</p>
+          <p class="dish-price">Rs. 800</p>
+        </div>
+        <div style="background-color: rgb(184, 104, 0);" class="food"></div>
+        <div style="background-color:#a55e01;" class="food"></div>
+        <div style="background-color: rgb(124, 68, 22);" class="food"></div>
+        <div style="background-color: #78605a;" class="food5">
+          <p class="dish-price" style="font-size: 12px;">
+            popular in bengal, will surely make you satisfied and give you a good day.</p>
+          <img class="katlaa" src="images/mutton.png">
+        </div>
+        <div style="background-color: rgb(194, 136, 30);" class="food"></div>
+      </div>
+    
+    
+      <div class="parent-container">
+        <div style="background-color: black;" class="food1">
+          <p class="dish-fame">Our Popular Dish</p>
+          <p class="dish-name" style="font-size: 30px;">Chicken Full-Plate</p>
+          <p class="dish-price">Rs. 800</p>
+        </div>
+        <div style="background-color: rgb(129, 184, 0);" class="food"></div>
+        <div style="background-color:#79ce0a;" class="food"></div>
+        <div style="background-color: rgb(124, 177, 0);" class="food"></div>
+        <div style="background-color: #baf034;" class="food5">
+          <p class="dish-price" style="color: black; font-size: 12px;">
+            a famous dish, great in taste and a befitting upliftment of your mood.</p>
+          <img class="katlaa" src="images/chicken.png">
+        </div>
+        <div style="background-color: rgb(155, 187, 12);" class="food"></div>
+      </div>
+    </div>
+    
+    <div class="bottom-section">
+      <a href="https://www.swiggy.com/city/jalpaiguri/new-maa-maya-hotel-ukilpara-jalpaiguri-locality-rest157876" target="_blank" class="swiggy">Swiggy/</a>
+    </div>
+
+</body>
+
+<script>
+    // To add/remove the 'stuck' class
+    const stickyDiv = document.querySelector('.header-logo');
+    const stickyTop = stickyDiv.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= stickyTop)
+      {
+        stickyDiv.classList.add('stuck');
+      }
+      else
+      {
+        stickyDiv.classList.remove('stuck');
+      }
+    });
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY < 400) {
+  const newSize = 270 - window.scrollY / 2;
+  stickyDiv.style.width = `${newSize}px`;
+  stickyDiv.style.height = `${newSize}px`;
+        }
+        else {
+            stickyDiv.style.width = '70px';
+            stickyDiv.style.height = '70px';
+        }
+});
+
+
+// Get all tracker elements
+const trackers = document.querySelectorAll('.tracker');
+
+// Function to shrink trackers on scroll
+window.addEventListener('scroll', () => {
+  // Check if user has scrolled
+  if (window.scrollY > 0) {
+    // Shrink all trackers to 20px
+    trackers.forEach(tracker => {
+        const newtrackers = 88 - window.scrollY/6;
+      tracker.style.height = `${newtrackers}px`;
+      tracker.style.width = `${newtrackers}px`;
+    });
+  } else {
+    // Reset trackers to original size
+    trackers.forEach(tracker => {
+      tracker.style.height = '88px';
+      tracker.style.width = '88px';
+    });
+  }
+});
+
+
+     </script>
+
+     </html>

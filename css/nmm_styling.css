@@ -1,0 +1,778 @@
+a
+{
+    color: black;
+}
+.restaurant-name-container
+{
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0px 90px 0px 90px;
+    height: 83px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-wrap: nowrap;
+}
+.restaurant-name
+{
+    cursor: pointer;
+}
+.header
+{
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    background-color: white;
+}
+.sub-header1
+{
+    background-color: white;
+    height: 83px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(230, 230, 230);
+}
+.middle-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo1
+{
+    background-color: aliceblue;
+    width: 70px;
+    height: 70px;
+    margin-top: 530px;
+    z-index: 1;
+}
+.sub-header2
+{
+    height: 52px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 1px rgb(230, 230, 230);
+
+}
+.home, .menu, .services, .about
+{
+    opacity: 60%;
+}
+.sub-header2 div:hover
+{
+    opacity: 100%;
+}
+
+.restaurant-information-scroll
+{
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    height: 134px;
+    font-size: 14px;
+    margin-top: -136px;
+    z-index: -1;
+}
+.restaurant-information-scroll div
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    cursor: default;
+    border-bottom: solid 1px rgb(230, 230, 230);
+}
+.information-a
+{
+    background-color: white;
+    border-right: solid 1px rgb(230, 230, 230);
+}
+.information-b
+{
+    background-color:white;
+    border-right: solid 1px rgb(230, 230, 230);
+}
+.information-c
+{
+    background-color:white;
+}
+
+
+
+.left-section
+{
+    display: flex;
+    width: 159px;
+    /*background-color: antiquewhite;*/
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.middle-section
+{
+    display: flex;
+    flex: 1;
+    /*background-color:cadetblue;*/
+    background-color: white;
+}
+.right-section
+{
+    display: flex;
+    width: 159px;
+    /*background-color:burlywood;*/
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.hamburger
+{
+    cursor: pointer;
+    width: 28px;
+    height: 35px;
+    z-index: 4;
+}
+.contact-us
+{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    z-index: 4;
+}
+
+
+.home
+{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    background-color: white;
+    justify-content: space-between;
+    border-right: solid 1px rgb(230, 230, 230);
+    border-left: solid 1px rgb(230, 230, 230);
+    cursor: pointer;
+}
+.home-logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 100%;
+
+}
+.home-text
+{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    background-color:white;
+    justify-content: start;
+    text-decoration: none;
+    align-items: center;
+}
+.menu
+{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    /*background-color: cornflowerblue;*/
+    justify-content: space-between;
+    border-right: solid 1px rgb(230, 230, 230);
+    cursor: pointer;
+}
+.menu-logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 100%;
+}
+.menu-text
+{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    background-color:white;
+    justify-content: start;
+    align-items: center;
+}
+.services
+{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    background-color:white;
+    justify-content: space-between;
+    border-right: solid 1px rgb(230, 230, 230);
+    cursor: pointer;
+}
+.services-logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 100%;
+    /*background-color: rgb(130, 131, 97);*/
+}
+.services-text
+{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    justify-content: start;
+    align-items: center;
+}
+.about
+{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    background-color:white;
+    justify-content: space-between;
+    border-right: solid 1px rgb(230, 230, 230);
+    cursor: pointer;
+}
+.about-logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 100%;
+    background-color: white;
+}
+.about-text
+{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+.hero-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc600;
+    position: absolute;
+    padding-top: 133px;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 700px;
+}
+.fishes
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0%;
+    transition: opacity 1s;
+}
+.fishes2
+{
+    position: absolute;
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    opacity: 0%;
+    transition: opacity 1s;
+}
+
+
+.hero-messege-container
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 458px;
+    /*background-color: bisque;*/
+}
+.logo
+{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*background-color: crimson;*/
+}
+.header-logo
+{
+    /*background-color: aliceblue;*/
+    width: 270px;
+    height: 270px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    perspective: 7900px;
+    transition: width 0.1s, height 0.1s;
+}
+.header-logo.stuck
+{
+    position: fixed;
+    top: 0;
+    width: 270px;
+    height: 270px;
+    margin-top: 6px;
+    z-index: 2;
+}
+.tracker
+{
+    position: relative;
+    width: 88px;
+    height: 88px;
+    z-index: 2;
+    transition: all 0.1s;
+}
+.nmmh_logo
+{
+    position: absolute;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.4s;
+}
+
+#r1c1:hover ~ #nmmh-logo
+{
+    transform: rotateX(25deg) rotateY(-25deg) rotateZ(5deg);
+
+}
+#r1c2:hover ~ #nmmh-logo
+{
+    transform: rotateX(25deg);
+
+}
+#r1c3:hover ~ #nmmh-logo
+{
+    transform: rotateX(25deg) rotateY(25deg) rotateZ(-5deg);
+
+}
+#r2c1:hover ~ #nmmh-logo
+{
+    transform: rotateY(-25deg);
+
+}
+#r2c3:hover ~ #nmmh-logo
+{
+    transform: rotateY(25deg);
+
+}
+#r3c1:hover ~ #nmmh-logo
+{
+    transform: rotateX(-25deg) rotateY(-25deg) rotateZ(5deg);
+
+}
+#r3c2:hover ~ #nmmh-logo
+{
+    transform: rotateX(-25deg);
+}
+#r3c3:hover ~ #nmmh-logo
+{
+    transform: rotateX(-25deg) rotateY(25deg) rotateZ(5deg);
+
+}
+.messege
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+    z-index: 1;
+    /*background-color:darkseagreen;*/
+}
+.location-button
+{
+    background-color: black;
+    color: white;
+    border: solid black 1px;
+    border-radius: 5px;
+    height: 45px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    z-index: 1;
+}
+.location-button::after
+{
+    content: "Visit Us";
+}
+.location-button:hover::after
+{
+    content: "🚩Jalpaiguri";
+}
+
+
+
+.restaurant-information
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    margin-top: 833px;
+    height: 134px;
+    font-size: 14px;
+    border-bottom: solid 1px rgb(230, 230, 230);
+}
+.information-1
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border-right: solid 1px rgb(230, 230, 230);
+}
+.information-2
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    height: 100%;
+    border-right: solid 1px rgb(230, 230, 230);
+}
+.information-3
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    height: 100%;
+
+}
+
+
+
+.further-information
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 1057px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    gap: 20px;
+    transition: margin-top 0.3s;
+    /*height: 590px;*/
+    
+}
+.services-info
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 420px;
+    max-width: 500px;
+    height: 582px;
+    background-color: #ffc600;
+    /*height: 100%;*/
+    position: relative;
+    align-items: center;
+
+}
+.services-info-text
+{
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    padding: 60px;
+    justify-content: start;
+}
+.services-info h1
+{
+
+    font-size: 30px;
+    text-wrap: wrap;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+.services-info h2
+{
+    margin-top: 40px;
+    font-size: 20px;
+    text-wrap: wrap;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services-info p
+{
+    margin-top: 0px;
+    font-size: 17px;
+    text-wrap: wrap;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-button
+{
+    background-color: black;
+    color: white;
+    border: solid black 1px;
+    border-radius: 8px;
+    height: 50px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.contact-button::after
+{
+    content: "If interested, Then contact us";
+}
+.contact-button:hover::after
+{
+    content: "(+91) 98324 86509";
+}
+.location-compliment
+{
+    display: flex;
+    flex-direction: column;
+    background-color:beige;
+    min-width: 420px;
+    max-width: 500px;
+    height: 582px;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+
+}
+.location-photo
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.jalpaiguri-photo
+{
+    width: fit-content;
+    height: 140px;
+}
+.services-info-text
+{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 60px;
+    padding-bottom: 0px;
+}
+.location-compliment h1
+{
+
+    font-size: 30px;
+    text-wrap: wrap;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+.location-compliment h2
+{
+    margin-top: 40px;
+    font-size: 20px;
+    text-wrap: wrap;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.location-compliment p
+{
+    margin-top: 0px;
+    font-size: 17px;
+    text-wrap: wrap;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.location-pinpoint
+{
+    display: flex;
+    flex-direction: row;
+ /* background-color:crimson;*/
+    min-width: 420px;
+    max-width: 100%;
+    min-height: 582px;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.container
+{
+    margin-top: 1750px;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    background-color: antiquewhite;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+
+
+.hamburger-menu
+{
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 3;
+}
+.hamburger-menu-content
+{
+    top: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-wrap: nowrap;
+}
+.hamburger-menu-content a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.hamburger-menu-content a:hover
+{
+    font-weight: bolder;
+}
+.close-button
+{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.contact-menu
+{
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 3;
+}
+.contact-menu-content
+{
+    top: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-wrap: nowrap;
+
+}
+.contact-menu-content p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0px 0px 5px 0px;
+    cursor: pointer;
+}
+.contact-menu-content p:hover
+{
+    font-weight: bolder;
+}
+.close-contact
+{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    right: 60px;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
